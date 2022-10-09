@@ -1,0 +1,162 @@
+@charset "UTF-8"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+    color: rgb(63, 62, 62);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 60vh auto auto;
+    grid-template-areas: "header header"
+                           "main main"
+                           "footer footer"
+                           ;
+}
+
+header {
+background: url(./imagens/bg3.jpg) no-repeat center center;
+background-size: cover;
+grid-area: header;
+
+}
+
+main {
+background-color: rgb(248, 241, 241);
+grid-area: main;
+}P
+
+footer {
+background-color: white;
+grid-area: footer;
+}
+.imagemjs{
+    display: none;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    
+}
+.menu h1{
+
+}
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 5px;  
+    cursor: pointer;
+   
+   
+}
+
+.menu2 {
+    margin-top: 10vh;
+   text-align: center;
+   cursor: pointer;
+}
+
+.menu2 h1 {
+    padding-bottom: 30px ;
+}
+
+.menu2 h2 {
+    text-decoration: underline;
+}
+
+
+.paragraph {
+    
+   margin: 0 auto;
+    height: 20vh;
+    width: 30vw;
+    background-color: rgb(248, 241, 241);
+    
+}
+.paragraph p {
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 20vh;
+    
+ }
+   
+ .new {
+    display: flex;
+    justify-content: space-around;
+
+    
+ }
+
+ .new img {
+    margin-top: 30px;
+  width: 20vw;
+  cursor: pointer;
+ 
+ }
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+ .new p {
+    font-size: 10px;
+    color: rgb(65, 65, 65);
+  text-align: center;
+    
+ }
+
+ .menu3 {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .menu3 img {
+    width: 40vw;
+    cursor: pointer;
+ }
+
+ .menu3 p {
+    margin-top: 20vh;
+    text-align: center;
+ }
+
+.collections {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+  
+ .collections img {
+    width: 20vw;
+   padding: 10px;
+   cursor: pointer;
+ }
+ 
+footer {
+
+    display: flex;
+    justify-content: space-around;
+    border-top: 4px solid rgb(87, 85, 85);
+}
+ 
+footer ul {
+    list-style: none;
+    margin-top: 30px;
+}
+
+footer li {
+    cursor: pointer;
+}
+
+
