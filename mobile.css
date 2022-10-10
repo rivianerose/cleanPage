@@ -2,18 +2,22 @@
 
     
     .menuresponsivo {
-        display: block;
-        
+        display: block; 
     }
 
     .menuresponsivo li {
-        display: none;
-        
+        display: none;  
     }
 
 
     .menu h1 {
-        margin-right: 65px;
+        margin: 0 auto;
+        position: fixed;
+        
+    }
+
+    .menu2 {
+       
     }
     .imagemjs{
         display: block;
@@ -82,5 +86,25 @@
     footer li {
         cursor: pointer;
     }
+
+    .hide {
+        display: none;
+        transition: 1s;
+    }
     
+    .show {
+        display: block !important;
+        transition: 1s;
+    }
+    #menuresponsivo {
+    display: none;
+    position:absolute;
+    }
+    
+    #menuresponsivo li {
+        display: flex;
+     flex-direction:row;
+     text-decoration: underline;
+     color: rgb(141, 110, 90);
+    }
 }
