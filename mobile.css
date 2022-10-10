@@ -3,6 +3,7 @@
     
     .menuresponsivo {
         display: block; 
+        margin-right: 80px;
     }
 
     .menuresponsivo li {
@@ -12,13 +13,20 @@
 
     .menu h1 {
         margin: 0 auto;
-        position: fixed;
+        position: absolute;
         
     }
 
     .menu2 {
        
     }
+
+    header {
+        background: url(./imagens/maisfoto3.jpg) no-repeat right center;
+        background-size: cover;
+        grid-area: header;
+        
+        }
     .imagemjs{
         display: block;
         cursor: pointer;
@@ -105,6 +113,6 @@
         display: flex;
      flex-direction:row;
      text-decoration: underline;
-     color: rgb(141, 110, 90);
+     color: rgb(56, 45, 37);
     }
 }
